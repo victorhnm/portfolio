@@ -56,6 +56,11 @@ export const TOOLS = [
     name: 'Tabular Editor',
     image: '/images/tools/tabulareditor.svg',
     alt: 'Tabular Editor'
+  },
+  {
+    name: 'AWS',
+    image: '/images/tools/aws.svg',
+    alt: 'Amazon Web Services'
   }
 ]
 
@@ -118,7 +123,7 @@ export const SOLUTIONS = [
     description: 'Desenvolva as habilidades da sua equipe em análise e visualização de dados.',
     features: [
       'Fundamentos de BI',
-      'Análises avançadas',
+      'Análises básicas e intermediárias', // Modificado de 'Análises avançadas'
       'Projetos práticos',
       'Suporte dedicado'
     ]
