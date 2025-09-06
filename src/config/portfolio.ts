@@ -399,5 +399,6 @@ export const CTA = {
 export const CONTACT = {
   email: "victor.hilton.18@gmail.com",
   linkedin: "https://www.linkedin.com/in/victor-melo-analista/",
-  github: "https://github.com/victorhnm"
+  github: "https://github.com/victorhnm",
+  whatsapp: "https://wa.me/5585996744957"
 }

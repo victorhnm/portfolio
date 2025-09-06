@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Mail, Linkedin, Github, BarChart, Layout, GraduationCap, ChevronDown, Award, Star, CheckCircle, ArrowRight as ArrowRightIcon, Code, Database, Cloud } from 'lucide-react';
+import { Mail, Linkedin, Github, MessageCircle, BarChart, Layout, GraduationCap, ChevronDown, Award, Star, CheckCircle, ArrowRight as ArrowRightIcon, Code, Database, Cloud } from 'lucide-react';
 import { TOOLS, PROJECTS, SOLUTIONS, CTA, CONTACT, ABOUT, CERTIFICATIONS, TESTIMONIALS, PROCESS, ADDITIONAL_SKILLS, SPECIALIZATIONS } from './config/portfolio';
 
 // Interfaces para tipagem
@@ -700,6 +700,15 @@ const ContactSection: React.FC = () => {
           >
             <Mail className="w-6 h-6" />
             Email
+          </a>
+          <a 
+            href={CONTACT.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition-colors"
+          >
+            <MessageCircle className="w-6 h-6" />
+            WhatsApp
           </a>
           <a 
             href={CONTACT.linkedin}
