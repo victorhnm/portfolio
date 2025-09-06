@@ -316,7 +316,7 @@ const ProjectsSection: React.FC = () => {
             Projetos em Destaque
           </span>
         </h2>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {PROJECTS.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
@@ -336,13 +336,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-blue-500"></div>
       
       {/* Badge da categoria */}
-      <div className="absolute top-4 right-4 bg-emerald-500/20 text-emerald-400 text-xs px-2 py-1 rounded-full">
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 bg-emerald-500/20 text-emerald-400 text-xs px-2 py-1 rounded-full z-10 max-w-24 truncate">
         {project.category}
       </div>
       
       {/* Conteúdo principal */}
-      <div className="p-4 sm:p-6">
-        <h3 className="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors leading-tight">
+      <div className="p-4 sm:p-6 pt-6 sm:pt-6">
+        <h3 className="text-base sm:text-lg lg:text-xl font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors leading-tight pr-20 sm:pr-16">
           {project.title}
         </h3>
         
