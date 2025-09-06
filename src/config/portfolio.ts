@@ -33,70 +33,70 @@ export const ABOUT = {
 export const TOOLS = [
   {
     name: 'Microsoft Fabric',
-    image: './images/tools/fabric.svg',
+    image: '/portfolio/images/tools/fabric.svg',
     alt: 'Microsoft Fabric',
     category: 'Data Platform',
     description: 'Plataforma unificada de dados e analytics'
   },
   {
     name: 'Power BI',
-    image: './images/tools/powerbi.svg',
+    image: '/portfolio/images/tools/powerbi.svg',
     alt: 'Microsoft Power BI Visualization',
     category: 'Visualização',
     description: 'Dashboards e relatórios interativos'
   },
   {
     name: 'SQL Server',
-    image: './images/tools/sql.svg',
+    image: '/portfolio/images/tools/sql.svg',
     alt: 'Microsoft SQL Server',
     category: 'Banco de Dados',
     description: 'SGBD empresarial Microsoft'
   },
   {
     name: 'Python',
-    image: './images/tools/python.svg',
+    image: '/portfolio/images/tools/python.svg',
     alt: 'Python Programming',
     category: 'Análise',
     description: 'Análise estatística e machine learning'
   },
   {
     name: 'DAX Studio',
-    image: './images/tools/daxstudio.svg',
+    image: '/portfolio/images/tools/daxstudio.svg',
     alt: 'DAX Studio',
     category: 'Otimização',
     description: 'Otimização de fórmulas DAX'
   },
   {
     name: 'Excel',
-    image: './images/tools/excel.svg',
+    image: '/portfolio/images/tools/excel.svg',
     alt: 'Microsoft Excel Advanced Analytics',
     category: 'Análise',
     description: 'Análises avançadas e modelagem'
   },
   {
     name: 'PostgreSQL',
-    image: './images/tools/postgresql.svg',
+    image: '/portfolio/images/tools/postgresql.svg',
     alt: 'PostgreSQL Database',
     category: 'Banco de Dados',
     description: 'Banco de dados relacional robusto'
   },
   {
     name: 'Figma',
-    image: './images/tools/figma.svg',
+    image: '/portfolio/images/tools/figma.svg',
     alt: 'Figma Design Tool',
     category: 'Design',
     description: 'Prototipagem de dashboards'
   },
   {
     name: 'Tabular Editor',
-    image: './images/tools/tabulareditor.svg',
+    image: '/portfolio/images/tools/tabulareditor.svg',
     alt: 'Tabular Editor',
     category: 'Otimização',
     description: 'Edição de modelos SSAS'
   },
   {
     name: 'AWS',
-    image: './images/tools/aws.svg',
+    image: '/portfolio/images/tools/aws.svg',
     alt: 'Amazon Web Services',
     category: 'Cloud',
     description: 'Infraestrutura em nuvem'

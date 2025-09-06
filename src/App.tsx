@@ -316,7 +316,7 @@ const ProjectsSection: React.FC = () => {
             Projetos em Destaque
           </span>
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {PROJECTS.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}
@@ -341,12 +341,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       </div>
       
       {/* Conteúdo principal */}
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">
+      <div className="p-4 sm:p-6">
+        <h3 className="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors leading-tight">
           {project.title}
         </h3>
         
-        <p className="text-gray-300 mb-4 text-sm">
+        <p className="text-gray-300 mb-4 text-sm sm:text-base leading-relaxed">
           {project.description}
         </p>
         
@@ -693,13 +693,13 @@ const ContactSection: React.FC = () => {
           {CTA.contact.description}
         </p>
         
-        <div className="flex justify-center space-x-8">
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-8">
           <a 
             href={`mailto:${CONTACT.email}`}
             className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition-colors"
           >
             <Mail className="w-6 h-6" />
-            Email
+            <span className="text-sm sm:text-base">Email</span>
           </a>
           <a 
             href={CONTACT.whatsapp}
@@ -708,7 +708,7 @@ const ContactSection: React.FC = () => {
             className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition-colors"
           >
             <MessageCircle className="w-6 h-6" />
-            WhatsApp
+            <span className="text-sm sm:text-base">WhatsApp</span>
           </a>
           <a 
             href={CONTACT.linkedin}
@@ -717,7 +717,7 @@ const ContactSection: React.FC = () => {
             className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition-colors"
           >
             <Linkedin className="w-6 h-6" />
-            LinkedIn
+            <span className="text-sm sm:text-base">LinkedIn</span>
           </a>
           <a 
             href={CONTACT.github}
@@ -726,7 +726,7 @@ const ContactSection: React.FC = () => {
             className="flex items-center gap-2 text-gray-300 hover:text-emerald-400 transition-colors"
           >
             <Github className="w-6 h-6" />
-            GitHub
+            <span className="text-sm sm:text-base">GitHub</span>
           </a>
         </div>
         
